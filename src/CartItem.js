@@ -1,5 +1,3 @@
-import React from 'react';
-
 const CartItem = (props) => {
     const { product, onIncreaseQuantity, onDecreaseQuantity, onDelete } = props;
     const { price, title, qty } = product;
